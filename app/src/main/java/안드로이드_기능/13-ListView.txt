@@ -1,0 +1,20 @@
+ListView
+- 기본적인 동작 원리는 addview와 동일하다
+- 어답터(Adapter)
+    -데이터 뷰를 짝지어 준다
+    -요청 시 해당 번째 데이터를 준다
+    -데이터 변경되었을때 갱신
+
+-baseAdapter
+    -ArrayAdapter : 배열 타입
+    -CursorAdapter : 데이터 전용
+    -SimpleAdapter : 정적 XML
+
+AddLiew->ListView-><RecylerView
+1. 개발하기 쉽다(개발자를 위함)
+2. 성능이 좋다(고객을 위함)
+
+-단점
+    - 비효율적이다->데이터의 갯수만큼 inflate해야한다
+    - inflate는 비용이 비싸다->휴대폰의 리소스를 많이 차치한다
+    -

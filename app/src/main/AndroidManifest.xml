@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fastcampus3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".MasterApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FastCampus3"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".RetrofitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NetworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TablayoutPagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SharedPreferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TablayoutPagerSimpleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TablayoutPagerNewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerHomework"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddViewHomework"
+            android:exported="false" />
+        <activity
+            android:name=".AddViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GlideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResourceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApplicationActivityTwo"
+            android:exported="false" />
+        <activity
+            android:name=".ApplicationActivityOne"
+            android:exported="false" />
+        <activity
+            android:name=".AsyncActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityOne"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityThree"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTwo"
+            android:exported="false" />
+        <activity
+            android:name=".Intent_One"
+            android:exported="false" />
+        <activity
+            android:name=".Intent_Two"
+            android:exported="false" />
+        <activity
+            android:name=".ViewControl_02"
+            android:exported="false" />
+        <activity
+            android:name=".Homework_1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_01"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PermissionActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

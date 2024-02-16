@@ -1,0 +1,14 @@
+코틀린에 존재하는 특이한 자료형/키워드
+
+1. unit
+- 자바 -> void
+
+2. Any/Any?
+-Any -> non-null 타입의 조상(Int, Short,...)
+-Any? -> nullable 타입의 조상(Int?,Short?)
+
+3.Nothing
+fun 함수명(변수명:타입,...):Nothing{
+    함수내용 ->"너 뭔가 잘못되었어"
+    }
+-이 함수를 호출하면 뭔가 잘못되었다는것을 명시적으로 알려주게된다.
